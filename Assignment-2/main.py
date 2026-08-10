@@ -5,7 +5,7 @@ import pandas as pd
 # Read Dataset
 # --------------------------------------------------
 
-df = pd.read_csv("resumes.csv")
+df = pd.read_csv("Data/resumes.csv")
 
 print("Original Dataset\n")
 print(df)
@@ -145,6 +145,6 @@ print(df[["Name",
 # Save CSV
 # --------------------------------------------------
 
-df.to_csv("extracted_resume_data.csv", index=False)
+df.to_csv("Data/extracted_resume_data.csv", index=False)
 
 print("\nData Saved Successfully!")
