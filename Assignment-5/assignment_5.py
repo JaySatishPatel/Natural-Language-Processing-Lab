@@ -11,7 +11,7 @@ from typing import List, Tuple
 from sklearn.feature_extraction.text import CountVectorizer, TfidfVectorizer
 from sklearn.decomposition import LatentDirichletAllocation, TruncatedSVD
 
-def fit_lda_topics(corpus: List[str], num_topics: int = 3, top_words_count: int = 5) -> List[Tuple[str, List[str]]]:
+def fit_lda_topics(corpus: List[str], num_topics: int = 6, top_words_count: int = 7) -> List[Tuple[str, List[str]]]:
     """Fits Latent Dirichlet Allocation (LDA) topic model and returns top keywords per topic."""
     vectorizer = CountVectorizer(stop_words='english')
     dtm = vectorizer.fit_transform(corpus)
@@ -27,7 +27,7 @@ def fit_lda_topics(corpus: List[str], num_topics: int = 3, top_words_count: int 
         topics.append((f"Topic {idx + 1}", top_words))
     return topics
 
-def fit_lsa_topics(corpus: List[str], num_topics: int = 3, top_words_count: int = 5) -> List[Tuple[str, List[str]]]:
+def fit_lsa_topics(corpus: List[str], num_topics: int = 6, top_words_count: int = 7) -> List[Tuple[str, List[str]]]:
     """Fits Latent Semantic Analysis (LSA / TruncatedSVD) topic model."""
     vectorizer = TfidfVectorizer(stop_words='english')
     tfidf_matrix = vectorizer.fit_transform(corpus)
@@ -62,13 +62,13 @@ def main():
     print(f"\nLoaded {len(documents)} customer support ticket descriptions.")
 
     # 1. Fit LDA Model
-    lda_results = fit_lda_topics(documents, num_topics=3)
+    lda_results = fit_lda_topics(documents, num_topics=6)
     print("\n--- Discovered Topics via Latent Dirichlet Allocation (LDA) ---")
     for topic_name, words in lda_results:
         print(f"{topic_name:<12}: {', '.join(words)}")
 
     # 2. Fit LSA Model
-    lsa_results = fit_lsa_topics(documents, num_topics=3)
+    lsa_results = fit_lsa_topics(documents, num_topics=6)
     print("\n--- Discovered Topics via Latent Semantic Analysis (LSA) ---")
     for topic_name, words in lsa_results:
         print(f"{topic_name:<12}: {', '.join(words)}")
