@@ -4,3 +4,68 @@ id,category,text
 3,network,Broadband router red light flashing internet down speed slow connectivity outage.
 4,network,Fiber optical cable disconnected no network signal wifi dropping constantly.
 5,device,Setup box power light off set top box hardware replacement remote not working.
+6,billing,Charged twice for family plan after upgrading my mobile package last week.
+7,billing,Need refund for duplicate charge on add on data package invoice error.
+8,billing,Monthly bill shows roaming fee even though I never traveled abroad.
+9,billing,Subscription renewal charged before contract date and request for adjustment.
+10,network,Internet keeps disconnecting during streaming and video calls at night.
+11,network,WiFi signal weak in bedroom and lounge area after router installation.
+12,network,Mobile network drops in rural area and voice calls keep cutting off.
+13,network,Broadband speed extremely slow in apartment after maintenance work.
+14,network,No service in office building and signal bars disappear constantly.
+15,device,Set top box freezes on startup and remote control battery needs replacement.
+16,device,Smartphone hotspot not working after system update and mobile data fails.
+17,device,Voice assistant on home device not responding after software patch.
+18,device,TV box stuck in reboot loop and screen remains black after power cycle.
+19,device,Router admin login page unavailable and network settings cannot be changed.
+20,service,Customer support took too long to resolve my internet outage complaint.
+21,service,Need technician visit for poor signal and weak coverage in my neighborhood.
+22,service,Activation process delayed and SIM card not delivered on time.
+23,service,Service agent misled me about upgrade eligibility and connection timeline.
+24,service,Need assistance with porting number from old provider to new service.
+25,account,Password reset link not working and account verification fails repeatedly.
+26,account,Unable to log in after changing mobile number and email address.
+27,account,Account locked due to suspicious activity and cannot access online portal.
+28,account,Auto pay failed because card expired and my billing cycle is affected.
+29,account,Need to update primary contact details for family account and billing.
+30,technical,Phone cannot send MMS and picture messages remain stuck in queue.
+31,technical,Call quality poor with echo and background noise during business meetings.
+32,technical,4G data is unstable after tower maintenance and coverage is inconsistent.
+33,technical,LAN cable connected but no internet and router dashboard shows offline.
+34,technical,Streaming service buffers due to low bandwidth and network congestion.
+35,billing,New line added to account but monthly invoice shows wrong family package cost.
+36,billing,Need to dispute late fee applied after payment was made on time.
+37,billing,Internet bundle discount removed after plan renewal and extra charge appears.
+38,network,Router keeps rebooting every few minutes and internet goes offline repeatedly.
+39,network,No coverage in basement and mobile signal drops while commuting daily.
+40,network,Fiber line disrupted after construction work and connectivity is intermittent.
+41,device,Phone battery drains quickly after app update and device overheats.
+42,device,Smart TV cannot connect to WiFi and keeps asking for network password.
+43,device,Home gateway lost internet access after factory reset and configuration failed.
+44,device,Landline phone has no dial tone and caller ID not showing correctly.
+45,service,Need support for moving my broadband connection to new apartment address.
+46,service,Request for technician to inspect damaged outdoor cable affecting service quality.
+47,service,Need help enabling international roaming for recent trip and travel package.
+48,service,Account transfer process stalled and old line remains active after cancellation.
+49,account,Unable to access billing portal after password change and OTP delivery issue.
+50,account,Security verification code never arrives and account recovery is blocked.
+51,account,Need to merge family accounts and separate usage reports for household members.
+52,account,Auto renew not updated after plan change and I was billed incorrectly.
+53,technical,Voice mail not recording messages and inbox shows storage full error.
+54,technical,Mobile hotspot disconnects during downloads and video calls keep dropping.
+55,technical,Online gaming latency spikes and ping increases during evening usage.
+56,technical,Network outage affecting multiple devices across home office and living room.
+57,billing,Subscription upgrade completed but previous package charge remains on statement.
+58,billing,Need refund for unused international add on after travel cancellation.
+59,network,Wifi login page not loading and browser says connection timed out repeatedly.
+60,network,Signal drops when entering elevator and app shows poor coverage in building.
+61,device,Device not pairing with smart home hub and connection keeps failing.
+62,device,Remote control volume buttons do not work and streaming app cannot be accessed.
+63,service,Need faster resolution for repeated outage and missing service credit claim.
+64,service,Ask for replacement SIM because old card has poor reception and data failures.
+65,account,Two factor login fails because verification SMS not received on phone.
+66,account,Family member profile cannot change settings due to account permission restrictions.
+67,technical,Calling feature stops on WiFi calling and voice fails during handoff.
+68,technical,DSL connection fails at random times and internet resets every few hours.
+69,technical,Router firmware update interrupted and device shows limited connectivity.
+70,technical,Cellular data is unusable in office due to weak LTE coverage and congestion.
