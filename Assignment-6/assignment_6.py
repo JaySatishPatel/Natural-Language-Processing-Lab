@@ -15,10 +15,10 @@ def extract_clinical_entities_rulebased(text: str) -> Dict[str, List[str]]:
     Extracts clinical medical entities (Drug, Dosage, Diagnosis, Symptom)
     using pattern matching / custom EntityRuler logic.
     """
-    drug_pattern = r'\b(Amoxicillin|Lisinopril|Metformin|Paracetamol|Ibuprofen|Aspirin)\b'
-    dosage_pattern = r'\b\d+\s*(?:mg|g|ml)\b'
-    diagnosis_pattern = r'\b(hypertension|Diabetes Mellitus|Type 2 Diabetes|fever|asthma)\b'
-    symptom_pattern = r'\b(dizziness|nausea|headache|pain|cough)\b'
+    drug_pattern = r'\b(Amoxicillin-Clavulanate|Amoxicillin|Lisinopril|Metformin|Paracetamol|Aspirin|Ibuprofen|Azithromycin|Sumatriptan|Ferrous Sulfate|Nitrofurantoin|Albuterol|Omeprazole)\b'
+    dosage_pattern = r'\b\d+(?:/\d+)?\s*(?:mg|g|ml|puffs?)\b'
+    diagnosis_pattern = r'\b(community-acquired pneumonia|acute migraine without aura|iron-deficiency anemia|urinary tract infection|asthma exacerbation|gastroesophageal reflux|acute bacterial sinusitis|musculoskeletal back pain|hypertension|Type 2 Diabetes Mellitus|Type 2 Diabetes|fever|asthma)\b'
+    symptom_pattern = r'\b(dizziness|nausea|headache|back pain|pain|cough|migraine)\b'
 
     drugs = list(set(re.findall(drug_pattern, text, re.IGNORECASE)))
     dosages = list(set(re.findall(dosage_pattern, text, re.IGNORECASE)))
