@@ -6,5 +6,37 @@
   {
     "id": "EHR_002",
     "text": "Diagnosed with Type 2 Diabetes Mellitus. Administered Metformin 850mg after meals. Patient reports mild dizziness."
+  },
+  {
+    "id": "EHR_003",
+    "text": "Patient admitted with community-acquired pneumonia. Prescribed Azithromycin 500mg once daily for 5 days and advised to maintain adequate hydration."
+  },
+  {
+    "id": "EHR_004",
+    "text": "Presented with acute migraine without aura. Treated with Sumatriptan 50mg as needed and advised to avoid known dietary triggers."
+  },
+  {
+    "id": "EHR_005",
+    "text": "Diagnosed with iron-deficiency anemia. Started Ferrous Sulfate 325mg orally once daily and advised to follow up for repeat blood work in 6 weeks."
+  },
+  {
+    "id": "EHR_006",
+    "text": "Patient evaluated for urinary tract infection. Prescribed Nitrofurantoin 100mg twice daily for 7 days and instructed to increase fluid intake."
+  },
+  {
+    "id": "EHR_007",
+    "text": "Admitted for asthma exacerbation. Symptoms improved after nebulized bronchodilator therapy. Discharged with Albuterol inhaler, 2 puffs every 4 to 6 hours as needed."
+  },
+  {
+    "id": "EHR_008",
+    "text": "Patient presented with gastroesophageal reflux symptoms. Started Omeprazole 20mg before breakfast daily and advised on dietary modifications."
+  },
+  {
+    "id": "EHR_009",
+    "text": "Diagnosed with acute bacterial sinusitis. Prescribed Amoxicillin-Clavulanate 875/125mg twice daily for 10 days and recommended saline nasal irrigation."
+  },
+  {
+    "id": "EHR_010",
+    "text": "Patient discharged after evaluation for musculoskeletal back pain. Recommended Ibuprofen 400mg every 8 hours with food as needed and gentle stretching exercises."
   }
 ]
