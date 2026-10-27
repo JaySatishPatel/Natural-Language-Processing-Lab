@@ -1,10 +1,11 @@
-"""
-Assignment 11: RAG-based Document Question Answering System
-- Chunking & Indexing institutional handbook documents into vector space
-- Top-k semantic similarity retrieval engine (FAISS / TF-IDF Vector Store)
-- Context-grounded RAG answer synthesis for university student queries (exams, admissions, hostel rules)
-- Evaluation via ROUGE & BLEU retrieval metrics
-"""
+'''
+Name: Jay Satish Patel
+Class: Btech IT 
+Batch: B2
+Roll:  103
+PRN:   UIT23M1103
+Assignment 11: RAG based document Question-Answer System
+'''
 
 import os
 from typing import Tuple
