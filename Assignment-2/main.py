@@ -1,3 +1,11 @@
+'''
+Name: Jay Satish Patel
+Class: Btech IT 
+Batch: B2
+Roll:  103
+PRN:   UIT23M1103
+Assignment 2: Regular Expression and Text Cleaning
+'''
 import re
 import pandas as pd
 

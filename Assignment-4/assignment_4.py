@@ -1,10 +1,11 @@
-"""
-Assignment 4: Word Embeddings – Word2Vec & GloVe
-- Train Word2Vec model on custom e-commerce product descriptions
-- Explore semantic similarity & word vector analogies (e.g., king - man + woman ≈ queen)
-- 2D embedding space visualization via PCA / t-SNE
-- E-Commerce Semantic Product Recommendation Engine
-"""
+'''
+Name: Jay Satish Patel
+Class: Btech IT 
+Batch: B2
+Roll:  103
+PRN:   UIT23M1103
+Assignment 4: Word Embeddings using Word2Vec and GloVe
+'''
 
 import os
 import json

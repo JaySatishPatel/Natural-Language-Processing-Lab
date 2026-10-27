@@ -1,9 +1,11 @@
-"""
-Assignment 3: Bag-of-Words & TF-IDF Vectorization
-- Bag-of-Words (BoW) & TF-IDF vector representations built from scratch using NumPy
-- Verification with scikit-learn CountVectorizer & TfidfVectorizer
-- Document-similarity & Plagiarism Detection system based on Cosine Similarity
-"""
+'''
+Name: Jay Satish Patel
+Class: Btech IT 
+Batch: B2
+Roll:  103
+PRN:   UIT23M1103
+Assignment 3: Bag of Words and TF-IDF Vectorization
+'''
 
 import os
 import json
