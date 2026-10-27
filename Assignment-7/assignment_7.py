@@ -1,10 +1,11 @@
-"""
+'''
+Name: Jay Satish Patel
+Class: Btech IT 
+Batch: B2
+Roll:  103
+PRN:   UIT23M1103
 Assignment 7: Sentiment Analysis using Machine Learning
-- Binary sentiment classifier (positive/negative) on customer product reviews
-- Scikit-learn pipelines: TF-IDF + Logistic Regression, Naive Bayes, SVM
-- Model evaluation: Accuracy, Confusion Matrix, ROC-AUC curves
-- FMCG Brand-Sentiment monitoring system triggering real-time alerts when negative spikes > 30%
-"""
+'''
 
 import os
 import csv

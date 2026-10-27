@@ -1,9 +1,11 @@
-"""
-Assignment 9: Text Classification using Deep Learning (LSTM / BERT)
-- Multi-class news article category routing (World, Sports, Business, Sci/Tech)
-- Bi-directional LSTM PyTorch network vs. Fine-tuned DistilBERT Transformer
-- Benchmark training time, classification accuracy, loss curves, and inference speed (< 200 ms)
-"""
+'''
+Name: Jay Satish Patel
+Class: Btech IT 
+Batch: B2
+Roll:  103
+PRN:   UIT23M1103
+Assignment 9: Text Classification using Deep Learning
+'''
 
 import os
 import csv

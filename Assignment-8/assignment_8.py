@@ -1,9 +1,11 @@
-"""
-Assignment 8: Transformer-based Sentiment Analysis using Hugging Face
-- Multilingual Sentiment Classification using Hugging Face Transformers & DistilBERT
-- Compare Transformer performance against Machine Learning baselines
-- Multilingual social-media opinion mining (English, Hindi, Marathi)
-"""
+'''
+Name: Jay Satish Patel
+Class: Btech IT 
+Batch: B2
+Roll:  103
+PRN:   UIT23M1103
+Assignment 8: Transformer based Sentiment Analysis
+'''
 
 import os
 import csv

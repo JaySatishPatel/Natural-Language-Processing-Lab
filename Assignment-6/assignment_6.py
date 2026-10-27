@@ -1,9 +1,11 @@
-"""
-Assignment 6: Named Entity Recognition (NER)
-- spaCy NER pipeline & displaCy entity visualization logic
-- Custom spaCy EntityRuler for domain-specific clinical entity parsing
-- Extract Drug names, Dosages, Symptoms, and Diagnoses from EHR summaries
-"""
+'''
+Name: Jay Satish Patel
+Class: Btech IT 
+Batch: B2
+Roll:  103
+PRN:   UIT23M1103
+Assignment 6: NER - Named Entity Recognition
+'''
 
 import os
 import re
